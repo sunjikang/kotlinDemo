@@ -2,6 +2,7 @@ package com.zhong.kotlindemo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 
 class MainActivity : AppCompatActivity() {
     //sjk branch
@@ -9,5 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         //setContentView
         setContentView(R.layout.activity_main)
+        val ss = "sjk"
+        Log.e("ss",ss)
     }
 }
